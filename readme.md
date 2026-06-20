@@ -26,3 +26,19 @@ upi-transaction-analyzer/
 │   └── data_cleaning.py    # Automated cleaning pipeline
 ├── outputs/                # Cleaned CSVs and business summary reports
 └── charts/                 # Matplotlib/Seaborn visual dashboards
+```
+
+## 🚀 How to Run the Data Pipeline
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Angadthakur/upi-transaction-analyzer.git
+cd upi-transaction-analyzer
+```
+
+2. **Run the automated cleaning script:**
+
+```bash
+python src/data_cleaning.py
+```
